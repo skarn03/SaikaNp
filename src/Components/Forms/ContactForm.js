@@ -21,13 +21,17 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-full py-16 text-white px-4">
-      <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
-        <div className="lg:col-span-2 my-4">
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+    <div className="w-full py-16    text-gray-300 px-4">
+      <div className="max-w-[1240px]  gap-10 mx-auto grid lg:grid-cols-3">
+        <div className="lg:col-span-2 text-lg whitespace-normal my-4">
+          <h1 className="hover:bg-[#12372A]  md:text-4xl sm:text-3xl text-2xl font-bold py-2 font-serif">
             Wanna get in touch with us?
           </h1>
-          <p>Fill in the form below and we will get back to you.</p>
+          <p className=" hover:bg-[#12372A] "style={{ whiteSpace: 'pre-line' }}>
+            We invite you to connect with us by filling out the form below.
+            Whether you have questions, need more information, or are interested in our services, we're here to help.
+            Our team is committed to providing timely responses, and we aim to get back to you within 24 hours.
+          </p>
         </div>
         <div className="my-4">
           <form className="flex flex-col gap-4" onSubmit={handleSubmit}>

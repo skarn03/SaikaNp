@@ -24,7 +24,7 @@ const AboutSaikaPage = () => {
           />
         </div>
         <div className="max-w-[800px] mx-auto text-center">
-          <p className="md:text-lg text-base font-bold text-gray-500">
+          <p className="md:text-lg text-base font-bold text-gray-400">
 
             Saika Nepal is your go-to startup for all things web-related. From creating user-friendly websites/webapps to streamlining data management, we're here to simplify your online presence. With us, innovation meets simplicity, ensuring your digital journey is smooth and successful. Join us at Saika Nepal and let's make your web dreams a reality.
           </p>

@@ -20,7 +20,7 @@ const Homepage = () => {
         <AboutSaikaPage />
       </div>
       <div ref={servicesRef}>
-        <OurServices />
+        <OurServices contactRef={contactRef} />
       </div>
       <div ref={contactRef}>
         <ContactForm/>

@@ -3,6 +3,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CustomSlider from "./CustomSlider/CustomSlider";
 import CustomSlide from "./CustomSlider/CustomSlide";
+import businessImage from "../assets/business.jpg"
+import individualImage from "../assets/individual.jpg"
+import dataManagement from "../assets/data.png"
 
 const OurServices = () => {
   return (
@@ -24,7 +27,7 @@ const OurServices = () => {
             
             Partner with us today and elevate your online identity."
             src={
-              "https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              businessImage
             }
           />
           <CustomSlide
@@ -36,7 +39,7 @@ const OurServices = () => {
             
             Partner with us today and unlock the potential of your personal online presence."
             src={
-              "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              individualImage
             }
           />
           <CustomSlide
@@ -46,7 +49,7 @@ const OurServices = () => {
 
             With our intuitive systems, you can efficiently track and onboard new clients, members, or employees, empowering your business to thrive. Partner with Saika Tech today and experience the ease of streamlined database management."
             src={
-              "https://media.istockphoto.com/id/1304450711/fi/valokuva/tietokanta-ja-verkkoteknologiaa.jpg?s=612x612&w=0&k=20&c=vh192JQWZBD4m1mUJXU4v9ceQJHy_EDBQJw0M9Su97c="
+              dataManagement
             }
           />
          

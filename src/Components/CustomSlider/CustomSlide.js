@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useRef} from "react";
 import Laptop from "../../assets/laptop.jpg";
 
 const CustomSlide = ({
@@ -11,15 +11,15 @@ const CustomSlide = ({
   src,
   projectFlag = false,
   projectUrl = "http://youtube.com",
-}) => {
+ contactRef} ) => {
   const handleClick = () => {
     if (projectFlag) {
       window.open(projectUrl, "_blank");
     } else {
-      // Handle the default action here
+   
     }
   };
-
+  const [nav, setNav] = useState(false);
   return (
     <div className=" text-black max-w-[1240px] mx-auto grid md:grid-cols-2">
       <img
@@ -33,21 +33,8 @@ const CustomSlide = ({
           {header}
         </h1>
         <p className=" text-black">{description}</p>
-        {projectFlag ? (
-          <button
-            className="bg-black text-[#b54b9f] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3"
-            onClick={handleClick}
-          >
-            Go to Project
-          </button>
-        ) : (
-          <button
-            className="bg-black text-[#b54b9f] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3"
-            onClick={handleClick}
-          >
-            Get Started
-          </button>
-        )}
+    
+        
       </div>
     </div>
   );
