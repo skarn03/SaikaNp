@@ -6,7 +6,7 @@ import CustomSlider from "./CustomSlider/CustomSlider";
 
 const Cards = () => {
   return (
-    <div className="bg-white p-10 w-full py-[10rem] px-10 bg-white">
+    <div className="p-10 w-full py-[10rem] px-10 bg-white">
       <p className="mb-3 text-[#b54b9f] font-bold p-2 text-4xl md:text-5xl lg:text-6xl xl:text-4xl">
         Our Plans At Saika Tech
       </p>

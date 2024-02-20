@@ -16,7 +16,7 @@ const Career = () => {
         <CustomSlider>
           <CareerSlide
             title="Web Developer Student Intern"
-            header="Part time only 3 hours per day paid Internship"
+            header="Starting only 3-4 hours per day paid Internship"
             description="Are you a passionate student or recent graduate majoring in Computer Science, Software Engineering, Computer Engineering, or related fields? We're seeking talented individuals to join our team as a web developer Intern. This is a great opportunity to gain valuable hands-on experience and grow your skills in a dynamic work environment."
             src={
               internImage

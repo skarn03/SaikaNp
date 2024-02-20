@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 
-const AboutSaikaPage = () => {
+const AboutSaikaPage = ({contactRef}) => {
   return (
     <div className="text-white">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
@@ -29,7 +29,11 @@ const AboutSaikaPage = () => {
             Saika Nepal is your go-to startup for all things web-related. From creating user-friendly websites/webapps to streamlining data management, we're here to simplify your online presence. With us, innovation meets simplicity, ensuring your digital journey is smooth and successful. Join us at Saika Nepal and let's make your web dreams a reality.
           </p>
         </div>
-        <button className="bg-[#b54b9f] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+        <button onClick={
+            ()=>{
+            contactRef.current.scrollIntoView({ behavior: "smooth" })
+            }
+        } className="bg-[#b54b9f] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
           Get Started
         </button>
       </div>

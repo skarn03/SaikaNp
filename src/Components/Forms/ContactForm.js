@@ -86,7 +86,7 @@ const ContactForm = () => {
               Submit
             </button>
           </form>
-          <p>
+          <p className=" text-green-400">
             Your personal Data is secured with us.
           </p>
         </div>
